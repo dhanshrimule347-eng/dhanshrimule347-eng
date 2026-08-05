@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Dhanshri Mule - DevOps Engineer">
+<title>Dhanshri Mule — DevOps Engineer</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes popIn{0%{opacity:0;transform:translateY(14px) scale(.85)}70%{opacity:1;transform:translateY(-3px) scale(1.04)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes floaty2{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-10px) rotate(4deg)}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes neonFlicker{0%{opacity:0}5%{opacity:.7}7%{opacity:.1}10%{opacity:.9}12%{opacity:.3}16%,100%{opacity:1}}
+@keyframes neonPulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+@keyframes rise{0%{transform:translateY(0);opacity:0}12%{opacity:.5}88%{opacity:.5}100%{transform:translateY(-46px);opacity:0}}
+@keyframes dash{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:.3;r:5}50%{opacity:1;r:8}}
+.nm{opacity:0;animation:popIn .6s cubic-bezier(.2,.8,.3,1.2) forwards;transform-box:fill-box;transform-origin:center}
+.ii,.pill,.soc,.st,.cl{opacity:0}
+.pill{transition:transform .2s ease,filter .2s ease;transform-box:fill-box;transform-origin:center;cursor:pointer}
+.pill:hover{transform:scale(1.08);filter:brightness(1.35)}
+.cur{animation:blink 1s step-end infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:twinkle 2.6s ease-in-out infinite}
+.sp{transform-box:fill-box;transform-origin:center;animation:spin 8s linear infinite}
+.fl{animation:floaty 5s ease-in-out infinite}
+.fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
+.neon-on{animation:neonFlicker 2.4s ease 3.2s backwards}
+.np{animation:neonPulse 2.6s ease-in-out infinite}
+.rp{animation:rise linear infinite}
+.pulse{animation:pulse 1.8s ease-in-out infinite}
+.sep{stroke:#1c2838;stroke-width:1;opacity:.8}
+]]></style>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0a0f1a"/><stop offset="55%" stop-color="#0d1626"/><stop offset="100%" stop-color="#090d16"/>
+</linearGradient>
+<linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#38bdf8;#ff9900;#22d3ee" dur="8s" repeatCount="indefinite"/></stop>
+  <stop offset="55%" stop-color="#67e8f9"><animate attributeName="stop-color" values="#67e8f9;#7dd3fc;#ffb020;#67e8f9" dur="8s" repeatCount="indefinite"/></stop>
+  <stop offset="100%" stop-color="#38bdf8"><animate attributeName="stop-color" values="#38bdf8;#ff9900;#22d3ee;#38bdf8" dur="8s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#22d3ee" stop-opacity=".35"/>
+  <stop offset="50%" stop-color="#38bdf8" stop-opacity=".3"/>
+  <stop offset="100%" stop-color="#ff9900" stop-opacity=".3"/>
+</linearGradient>
+<radialGradient id="orbC"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".10"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbO"><stop offset="0%" stop-color="#ff9900" stop-opacity=".09"/><stop offset="100%" stop-color="#ff9900" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbB"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".08"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="illoGlow"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".16"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glowBig"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".6" fill="rgba(56,189,248,.10)"/></pattern>
+
+<clipPath id="cPrompt"><rect x="48" y="48" width="0" height="32"><animate attributeName="width" from="0" to="520" dur="1s" begin=".3s" fill="freeze"/></rect></clipPath>
+<clipPath id="cHi"><rect x="48" y="86" width="0" height="42"><animate attributeName="width" from="0" to="200" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="76" y="258" width="0" height="46"><animate attributeName="width" from="0" to="300" dur=".7s" begin="2.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="76" y="284" width="0" height="46"><animate attributeName="width" from="0" to="420" dur=".6s" begin="3s" fill="freeze"/></rect></clipPath>
+<!-- Cycling roles: 4 roles, 24s -->
+<clipPath id="r1"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;420;420;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="1.9s"/></rect></clipPath>
+<clipPath id="r2"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;420;420;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="1.9s"/></rect></clipPath>
+<clipPath id="r3"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;420;420;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="1.9s"/></rect></clipPath>
+<clipPath id="r4"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;420;420;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="1.9s"/></rect></clipPath>
+<linearGradient id="scanEdge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="18%" stop-color="#22d3ee"/>
+  <stop offset="50%" stop-color="#38bdf8"/><stop offset="82%" stop-color="#ff9900"/>
+  <stop offset="100%" stop-color="#ff9900" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="scanTrail" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="100%" stop-color="#22d3ee" stop-opacity=".2"/>
+</linearGradient>
+<clipPath id="illoReveal"><rect x="722" y="152" width="558" height="0">
+  <animate attributeName="height" from="0" to="522" dur="1.8s" begin=".5s" fill="freeze"/>
+</rect></clipPath>
+<clipPath id="illoBox"><rect x="722" y="152" width="558" height="522"/></clipPath>
+<clipPath id="bannerBox"><rect x="1" y="1" width="1278" height="738" rx="22"/></clipPath>
+</defs>
+
+<!-- ================= BACKGROUND ================= -->
+<rect width="1280" height="740" rx="22" fill="url(#bg)"/>
+<rect width="1280" height="740" rx="22" fill="url(#dots)"/>
+<circle cx="230" cy="220" r="260" fill="url(#orbC)"><animate attributeName="r" values="260;290;260" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="520" r="300" fill="url(#orbO)"><animate attributeName="r" values="300;330;300" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="120" r="200" fill="url(#orbB)"><animate attributeName="r" values="200;225;200" dur="5.5s" repeatCount="indefinite"/></circle>
+<rect x="1" y="1" width="1278" height="738" rx="22" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
+
+<!-- rising particles -->
+<circle class="rp" cx="140" cy="620" r="1.4" fill="#22d3ee" style="animation-duration:5s"/>
+<circle class="rp" cx="420" cy="700" r="1.1" fill="#ff9900" style="animation-duration:6s;animation-delay:1s"/>
+<circle class="rp" cx="620" cy="660" r="1.3" fill="#38bdf8" style="animation-duration:4.6s;animation-delay:2s"/>
+<circle class="rp" cx="1180" cy="690" r="1.2" fill="#22d3ee" style="animation-duration:5.4s;animation-delay:.6s"/>
+<circle class="rp" cx="1240" cy="360" r="1" fill="#ff9900" style="animation-duration:6.4s;animation-delay:1.6s"/>
+<circle class="rp" cx="70" cy="420" r="1" fill="#38bdf8" style="animation-duration:5.8s;animation-delay:2.4s"/>
+
+<!-- sparkles -->
+<g class="tw" style="animation-delay:.4s"><path d="M470 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#67e8f9"/></g>
+<g class="tw" style="animation-delay:1.5s"><path d="M880 120l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#ff9900"/></g>
+<g class="tw" style="animation-delay:2.6s"><path d="M1245 250l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#38bdf8"/></g>
+
+<!-- ================= LEFT: CONTENT ================= -->
+<!-- Terminal prompt -->
+<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#4ade80" font-weight="bold">dhanshri@devops-engineer</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#38bdf8">README.md</tspan></text>
+<rect x="504" y="56" width="8" height="16" fill="#4ade80" opacity="0"><animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" begin="1.35s"/></rect>
+
+<!-- Hi, I'm -->
+<text clip-path="url(#cHi)" x="48" y="114" font-size="24" font-weight="bold" fill="#e6edf3">Hi, I'm 👋</text>
+
+<!-- Name -->
+<text class="nm" x="48" y="196" font-size="58" font-weight="800" font-family="'Segoe UI','Trebuchet MS',sans-serif" fill="url(#nameg)" filter="url(#glow)" style="animation-delay:1.5s">Dhanshri Mule</text>
+
+<!-- Cycling roles -->
+<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; DevOps Engineer /&gt;</text>
+<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; AWS Cloud &amp; Automation /&gt;</text>
+<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; Linux | Networking | Python /&gt;</text>
+<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; Docker • Kubernetes • CI/CD /&gt;</text>
+<rect x="48" y="228" width="2.5" height="16" fill="#38bdf8" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="1.9s"/></rect>
+
+<!-- Quote box -->
+<g class="cl" style="animation:fadeIn .5s ease 2s forwards">
+  <rect x="48" y="262" width="480" height="72" rx="8" fill="#101a2b" stroke="#233144" stroke-width="1"/>
+  <rect x="48" y="266" width="3.5" height="64" rx="1.5" fill="#22d3ee"/>
+</g>
+<text clip-path="url(#q1)" x="76" y="292" font-size="15" fill="#e6edf3">I don't just deploy —</text>
+<text clip-path="url(#q2)" x="76" y="318" font-size="15" font-weight="bold" fill="#ff9900">I automate, optimize, and scale.</text>
+<g class="tw" style="animation-delay:.9s"><path d="M400 288l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#67e8f9"/></g>
+
+<!-- Tech I Know -->
+<text class="ii" x="48" y="374" font-size="15" fill="#22d3ee" font-weight="bold" style="animation:fadeIn .4s ease 3.4s forwards">🧩 Tech I Work With</text>
+<g class="pill" style="animation:fadeIn .3s ease 3.6s forwards"><rect x="48" y="388" width="84" height="26" rx="13" fill="rgba(251,191,36,.12)" stroke="#fbbf24" stroke-width="1"/><text x="90" y="405" text-anchor="middle" font-size="12" fill="#fde68a" font-weight="bold">Linux</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 3.7s forwards"><rect x="140" y="388" width="94" height="26" rx="13" fill="rgba(36,150,237,.14)" stroke="#2496ED" stroke-width="1"/><text x="187" y="405" text-anchor="middle" font-size="12" fill="#7dd3fc" font-weight="bold">Docker</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 3.8s forwards"><rect x="242" y="388" width="132" height="26" rx="13" fill="rgba(50,108,229,.14)" stroke="#326CE5" stroke-width="1"/><text x="308" y="405" text-anchor="middle" font-size="12" fill="#93c5fd" font-weight="bold">Kubernetes</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 3.9s forwards"><rect x="382" y="388" width="70" height="26" rx="13" fill="rgba(255,153,0,.14)" stroke="#ff9900" stroke-width="1"/><text x="417" y="405" text-anchor="middle" font-size="12" fill="#ffcc66" font-weight="bold">AWS</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4s forwards"><rect x="460" y="388" width="122" height="26" rx="13" fill="rgba(123,66,188,.14)" stroke="#7B42BC" stroke-width="1"/><text x="521" y="405" text-anchor="middle" font-size="12" fill="#d8b4fe" font-weight="bold">Terraform</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4.1s forwards"><rect x="48" y="422" width="104" height="26" rx="13" fill="rgba(238,0,0,.12)" stroke="#EE0000" stroke-width="1"/><text x="100" y="439" text-anchor="middle" font-size="12" fill="#fca5a5" font-weight="bold">Ansible</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4.2s forwards"><rect x="160" y="422" width="104" height="26" rx="13" fill="rgba(210,73,57,.14)" stroke="#D24939" stroke-width="1"/><text x="212" y="439" text-anchor="middle" font-size="12" fill="#fda88a" font-weight="bold">Jenkins</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4.3s forwards"><rect x="272" y="422" width="94" height="26" rx="13" fill="rgba(55,118,171,.16)" stroke="#3776AB" stroke-width="1"/><text x="319" y="439" text-anchor="middle" font-size="12" fill="#a7d8ff" font-weight="bold">Python</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4.4s forwards"><rect x="374" y="422" width="70" height="26" rx="13" fill="rgba(240,80,50,.14)" stroke="#F05032" stroke-width="1"/><text x="409" y="439" text-anchor="middle" font-size="12" fill="#fca5a5" font-weight="bold">Git</text></g>
+
+<!-- About Me -->
+<text class="ii" x="48" y="490" font-size="15" fill="#ff9900" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">⚙️ About Me</text>
+<text class="ii" x="48" y="516" font-size="13.5" style="animation:fadeIn .4s ease 4.8s forwards"><tspan fill="#4ade80">&gt;_ </tspan><tspan fill="#cdd3dd">I design, automate, and scale reliable cloud infrastructure.</tspan></text>
+<text class="ii" x="48" y="540" font-size="13.5" style="animation:fadeIn .4s ease 5s forwards"><tspan fill="#fde047">💡 </tspan><tspan fill="#cdd3dd">CI/CD, IaC, and zero-downtime deploys are home turf.</tspan></text>
+<text class="ii" x="48" y="564" font-size="13.5" style="animation:fadeIn .4s ease 5.2s forwards"><tspan fill="#38bdf8">🚀 </tspan><tspan fill="#cdd3dd">Turning manual ops into resilient, automated systems.</tspan></text>
+
+<!-- Callout strip -->
+<g class="st" style="animation:fadeIn .5s ease 5.4s forwards">
+  <rect x="48" y="586" width="620" height="50" rx="10" fill="#101a2b" stroke="#233144" stroke-width="1"/>
+  <circle cx="72" cy="611" r="5" fill="#4ade80" class="pulse"/>
+  <text x="90" y="616" font-size="13" fill="#cdd3dd">Open to DevOps &amp; Cloud opportunities — let's build something reliable.</text>
+</g>
+
+<!-- ================= RIGHT: ILLUSTRATION ================= -->
+<circle cx="1000" cy="440" r="270" fill="url(#illoGlow)"><animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/></circle>
+<g class="fl">
+  <g clip-path="url(#illoReveal)">
+    <g clip-path="url(#illoBox)">
+      <!-- cloud shape -->
+      <path d="M900 300 a55 55 0 0 1 20 -107 a70 70 0 0 1 134 -14 a50 50 0 0 1 8 99 z" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity=".85"/>
+      <path d="M900 300 a55 55 0 0 1 20 -107 a70 70 0 0 1 134 -14 a50 50 0 0 1 8 99 z" fill="#38bdf8" opacity=".06"/>
+      <!-- servers inside cloud -->
+      <g transform="translate(935,235)">
+        <rect width="46" height="30" rx="4" fill="#0d1626" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="9" cy="8" r="2.4" fill="#4ade80" class="pulse"/><circle cx="18" cy="8" r="2.4" fill="#ff9900" style="animation:pulse 1.8s ease-in-out .3s infinite"/>
+        <rect x="7" y="18" width="32" height="3" rx="1.5" fill="#233144"/>
+      </g>
+      <g transform="translate(990,258)">
+        <rect width="46" height="30" rx="4" fill="#0d1626" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="9" cy="8" r="2.4" fill="#4ade80" style="animation:pulse 1.8s ease-in-out .6s infinite"/><circle cx="18" cy="8" r="2.4" fill="#38bdf8" style="animation:pulse 1.8s ease-in-out .9s infinite"/>
+        <rect x="7" y="18" width="32" height="3" rx="1.5" fill="#233144"/>
+      </g>
+
+      <!-- kubernetes wheel -->
+      <g class="sp" transform="translate(1120,230)">
+        <circle r="42" fill="none" stroke="#326CE5" stroke-width="2.5" opacity=".9"/>
+        <circle r="7" fill="#326CE5"/>
+        <g stroke="#326CE5" stroke-width="2.5">
+          <line x1="0" y1="-42" x2="0" y2="-28"/><line x1="0" y1="42" x2="0" y2="28"/>
+          <line x1="-42" y1="0" x2="-28" y2="0"/><line x1="42" y1="0" x2="28" y2="0"/>
+          <line x1="-30" y1="-30" x2="-20" y2="-20"/><line x1="30" y1="-30" x2="20" y2="-20"/>
+          <line x1="-30" y1="30" x2="-20" y2="20"/><line x1="30" y1="30" x2="20" y2="20"/>
+        </g>
+      </g>
+      <text x="1120" y="292" text-anchor="middle" font-size="10" fill="#93c5fd" letter-spacing="1">K8S</text>
+
+      <!-- mini terminal -->
+      <g transform="translate(752,262)">
+        <rect width="150" height="94" rx="8" fill="#0d1626" stroke="#233144" stroke-width="1.2"/>
+        <rect width="150" height="20" rx="8" fill="#182338"/><rect y="12" width="150" height="8" fill="#182338"/>
+        <circle cx="12" cy="10" r="3" fill="#ff5f57"/><circle cx="23" cy="10" r="3" fill="#febc2e"/><circle cx="34" cy="10" r="3" fill="#28c840"/>
+        <text x="10" y="38" font-size="9.5" fill="#4ade80">$ kubectl get pods</text>
+        <text x="10" y="54" font-size="9" fill="#8b949e">NAME       STATUS</text>
+        <text x="10" y="68" font-size="9" fill="#7dd3fc">web-7f9      Running</text>
+        <text x="10" y="82" font-size="9" fill="#7dd3fc">api-2c1      Running</text>
+      </g>
+
+      <!-- docker whale (simplified) -->
+      <g transform="translate(770,540)">
+        <path d="M0 40 h190 a20 20 0 0 1 -18 22 h-154 a20 20 0 0 1 -18 -22z" fill="#2496ED" opacity=".85"/>
+        <rect x="18" y="14" width="24" height="20" rx="3" fill="#2496ED"/>
+        <rect x="46" y="14" width="24" height="20" rx="3" fill="#2496ED"/>
+        <rect x="74" y="14" width="24" height="20" rx="3" fill="#2496ED"/>
+        <rect x="46" y="-10" width="24" height="20" rx="3" fill="#2496ED"/>
+        <rect x="74" y="-10" width="24" height="20" rx="3" fill="#2496ED"/>
+      </g>
+      <text x="865" y="608" text-anchor="middle" font-size="10" fill="#7dd3fc" letter-spacing="1">CONTAINERS</text>
+
+      <!-- pipeline -->
+      <g stroke="#233144" stroke-width="2">
+        <line x1="800" y1="450" x2="1150" y2="450"/>
+      </g>
+      <g font-size="9.5" fill="#8b949e" text-anchor="middle">
+        <g transform="translate(800,450)"><circle r="14" fill="#0d1626" stroke="#4ade80" stroke-width="2"/><text y="30">CODE</text></g>
+        <g transform="translate(917,450)"><circle r="14" fill="#0d1626" stroke="#38bdf8" stroke-width="2"/><text y="30">BUILD</text></g>
+        <g transform="translate(1034,450)"><circle r="14" fill="#0d1626" stroke="#ff9900" stroke-width="2"/><text y="30">TEST</text></g>
+        <g transform="translate(1150,450)"><circle r="14" fill="#0d1626" stroke="#22d3ee" stroke-width="2"/><text y="30">SHIP</text></g>
+      </g>
+      <circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion path="M800 450 H1150" dur="3.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- formation edge: bright line leading the top-to-bottom materialization -->
+    <rect x="722" y="150" width="558" height="4" fill="url(#scanEdge)" filter="url(#glow)" opacity="0">
+      <animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.04;.9;1" dur="2s" begin=".5s" fill="freeze"/>
+      <animate attributeName="y" from="150" to="672" dur="1.8s" begin=".5s" fill="freeze"/>
+    </rect>
+  </g>
+</g>
+
+<!-- deploy.sh code card -->
+<g class="cl" style="animation:fadeIn .5s ease 1.4s forwards">
+  <rect x="552" y="40" width="286" height="212" rx="12" fill="#101a2b" fill-opacity=".94" stroke="#233144" stroke-width="1.2"/>
+  <rect x="552" y="40" width="286" height="28" rx="12" fill="#182338"/>
+  <rect x="552" y="56" width="286" height="12" fill="#182338"/>
+  <circle cx="572" cy="54" r="4.5" fill="#ff5f57"/><circle cx="588" cy="54" r="4.5" fill="#febc2e"/><circle cx="604" cy="54" r="4.5" fill="#28c840"/>
+  <text x="695" y="58" text-anchor="middle" font-size="11" fill="#8b949e">deploy.sh</text>
+</g>
+<g font-size="12.5">
+  <text class="cl" x="568" y="90" style="animation:fadeIn .3s ease 1.8s forwards"><tspan fill="#8b949e">#!/bin/bash</tspan></text>
+  <text class="cl" x="568" y="112" style="animation:fadeIn .3s ease 2.1s forwards"><tspan fill="#38bdf8">terraform</tspan><tspan fill="#e6edf3"> apply -auto-approve</tspan></text>
+  <text class="cl" x="568" y="134" style="animation:fadeIn .3s ease 2.4s forwards"><tspan fill="#7dd3fc">docker</tspan><tspan fill="#e6edf3"> build -t app .</tspan></text>
+  <text class="cl" x="568" y="156" style="animation:fadeIn .3s ease 2.7s forwards"><tspan fill="#93c5fd">kubectl</tspan><tspan fill="#e6edf3"> apply -f k8s/</tspan></text>
+  <text class="cl" x="568" y="178" style="animation:fadeIn .3s ease 2.95s forwards"><tspan fill="#fde68a">ansible-playbook</tspan></text>
+  <text class="cl" x="586" y="196" style="animation:fadeIn .3s ease 3.2s forwards"><tspan fill="#e6edf3">  site.yml</tspan></text>
+  <text class="cl" x="568" y="218" style="animation:fadeIn .3s ease 3.45s forwards"><tspan fill="#4ade80">echo</tspan><tspan fill="#fde047"> "🚀 Shipped!"</tspan></text>
+  <text class="cl" x="568" y="238" style="animation:fadeIn .3s ease 3.65s forwards"><tspan fill="#8b949e"># zero downtime, every time</tspan></text>
+</g>
+
+<!-- Neon sign -->
+<g class="neon-on">
+  <rect x="1012" y="42" width="238" height="128" rx="14" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity=".5" filter="url(#glow)"/>
+  <text class="np" x="1131" y="86" text-anchor="middle" font-size="30" font-weight="bold" fill="#38bdf8" filter="url(#glowBig)" style="animation-delay:.2s">&lt;/&gt;</text>
+  <text class="np" x="1131" y="118" text-anchor="middle" font-size="19" font-weight="bold" fill="#22d3ee" filter="url(#glow)" letter-spacing="2">KEEP SHIPPING</text>
+  <text class="np" x="1131" y="146" text-anchor="middle" font-size="19" font-weight="bold" fill="#ff9900" filter="url(#glow)" letter-spacing="1.5" style="animation-delay:1.3s">KEEP AUTOMATING</text>
+</g>
+
+<!-- floating cloud + gear -->
+<g class="fl2" style="animation-delay:.7s">
+  <g transform="translate(600,300)" opacity="0">
+    <animate attributeName="opacity" from="0" to=".95" dur=".6s" begin="4.4s" fill="freeze"/>
+    <path d="M4 20 a10 10 0 0 1 4 -19 a13 13 0 0 1 24 -3 a9 9 0 0 1 1 22 z" fill="#38bdf8"/>
+  </g>
+</g>
+<g class="sp" style="animation-delay:1.4s;animation-duration:6s">
+  <g transform="translate(1236,320)" opacity=".85">
+    <circle r="10" fill="none" stroke="#ff9900" stroke-width="2.5"/>
+    <circle r="3" fill="#ff9900"/>
+  </g>
+</g>
+
+<!-- ================= FOOTER ================= -->
+<line x1="48" y1="676" x2="1232" y2="676" class="sep" stroke-dasharray="1184" stroke-dashoffset="1184">
+  <animate attributeName="stroke-dashoffset" from="1184" to="0" dur=".7s" begin="7.2s" fill="freeze"/>
+</line>
+<g class="soc" style="animation:fadeIn .5s ease 7.4s forwards">
+  <g transform="translate(48,692) scale(.8)"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="#c9d1d9"/></g>
+  <text x="74" y="707" font-size="12.5" fill="#c9d1d9">dhanshrimule347-eng</text>
+  <g transform="translate(276,693) scale(.8)"><rect x="1" y="3" width="22" height="17" rx="3.5" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M2.5 5.5 12 13l9.5-7.5" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="302" y="707" font-size="12.5" fill="#c9d1d9">dhanshrimule347@gmail.com</text>
+  <g transform="translate(544,692) scale(.8)"><rect width="24" height="24" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/><rect x="4" y="9" width="4" height="11" fill="#38bdf8"/><circle cx="6" cy="5" r="2" fill="#38bdf8"/><path d="M12 9h4v2c1-1.5 2.5-2.3 4.5-2.3 3.5 0 4.5 2 4.5 6V20h-4v-4.5c0-1.7 0-4-2.5-4s-2.5 2-2.5 4V20h-4z" fill="#38bdf8"/></g>
+  <text x="574" y="707" font-size="12.5" fill="#c9d1d9">dhanshri-mule-793424300</text>
+</g>
+<text class="soc" x="1232" y="707" text-anchor="end" font-size="13" style="animation:fadeIn .5s ease 7.6s forwards"><tspan fill="#8b949e">“</tspan><tspan fill="#ffcc66">Automate everything, break nothing.</tspan><tspan fill="#8b949e">” </tspan><tspan fill="#22d3ee">☁</tspan></text>
+
+<!-- full-banner scanner: sweeps left to right continuously -->
+<g clip-path="url(#bannerBox)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".6s" begin="3s" fill="freeze"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,-40;0,780" dur="3.5s" begin="3s" repeatCount="indefinite"/>
+    <rect x="0" y="-34" width="1280" height="34" fill="url(#scanTrail)"/>
+    <rect x="0" y="0" width="1280" height="2.6" fill="url(#scanEdge)" opacity=".6" filter="url(#glow)"/>
+  </g>
+</g>
+</svg>
