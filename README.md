@@ -9,7 +9,7 @@
 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dhanshri-banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./dhanshri-banner-light.svg?v=1">
+  <source media="(prefers-color-scheme: dark)" srcset="./dhanshri-banner.svg?v=1">
   <img src="./dhanshri-banner.svg?v=1" alt="Dhanshri Mule — DevOps Engineer" width="100%"/>
 </picture>
 
@@ -22,10 +22,10 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (pure SVG) -->
-<img src="./dhanshri-lanyard.svg?v=1" alt="Dhanshri Mule DevOps ID badge" width="330"/>
+<img src="./dhanshri-lanyard.svg?v=1" alt="Dhanshri Mule DevOps ID badge" width="450"/>
 
 </td>
-<td width="62%" valign="middle">
+<td width="72%" valign="middle">
 
 ### ☁️ Featured Projects
 
